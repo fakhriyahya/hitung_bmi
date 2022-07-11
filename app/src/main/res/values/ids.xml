@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonLogin" type="id" />
+    <item name="buttonRegister" type="id" />
+    <item name="editEmail" type="id" />
+    <item name="editPassword" type="id" />
+    <item name="editName" type="id" />
+    <item name="textEmail" type="id" />
+    <item name="buttonLogOut" type="id" />
+</resources>

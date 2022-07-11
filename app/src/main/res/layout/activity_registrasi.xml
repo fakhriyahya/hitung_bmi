@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:id="@+id/activity_register"
+    android:orientation="vertical"
+    tools:context=".RegistrasiActivity">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:hint="Masukkan Nama Pengguna"
+        android:textColor="#151111"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:hint="Masukkan Kata Sandi"
+        android:textColor="#0C0A0A"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="#2F5BB6"
+        android:text="Daftar"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:onClick="Back"
+        android:text="Kembali"
+        android:textSize="20sp" />
+
+</LinearLayout>
